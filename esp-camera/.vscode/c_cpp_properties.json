@@ -1,0 +1,37 @@
+{
+    "configurations": [
+        {
+            "name": "ESP32 Arduino",
+            "includePath": [
+                "${workspaceFolder}",
+                "${env:LOCALAPPDATA}/Arduino15/packages/esp32/hardware/esp32/*/cores/esp32",
+                "${env:LOCALAPPDATA}/Arduino15/packages/esp32/hardware/esp32/*/variants/*",
+                "${env:LOCALAPPDATA}/Arduino15/packages/esp32/hardware/esp32/*/libraries/*/src",
+                "${env:LOCALAPPDATA}/Arduino15/packages/esp32/tools/esp32-libs/*/include",
+                "${env:LOCALAPPDATA}/Arduino15/packages/esp32/tools/esp32-libs/*/include/**",
+                "${env:LOCALAPPDATA}/Arduino15/libraries/*",
+                "${env:LOCALAPPDATA}/Arduino15/libraries/*/src",
+                "${env:USERPROFILE}/Documents/Arduino/libraries/*",
+                "${env:USERPROFILE}/Documents/Arduino/libraries/*/src"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "${env:LOCALAPPDATA}/Arduino15/packages/esp32/hardware/esp32/*",
+                    "${env:LOCALAPPDATA}/Arduino15/packages/esp32/tools/esp32-libs/*/include",
+                    "${env:LOCALAPPDATA}/Arduino15/libraries",
+                    "${env:USERPROFILE}/Documents/Arduino/libraries"
+                ]
+            },
+            "compilerPath": "${env:LOCALAPPDATA}/Arduino15/packages/esp32/tools/esp-x32/2601/bin/xtensa-esp32-elf-g++.exe",
+            "defines": [
+                "ARDUINO",
+                "ARDUINO_ARCH_ESP32"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
